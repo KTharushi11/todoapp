@@ -10,7 +10,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor:Colors.black,
+        backgroundColor:const Color.fromARGB(255, 203, 48, 48),
         title: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [Icon(Icons.menu, color: Colors.white), Icon(Icons.account_circle, color: Colors.white)]
